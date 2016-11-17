@@ -18693,6 +18693,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	        if (e.type == "compositionend" && c.range) {
 	            host.selection.setRange(c.range);
 	        }
+			onInput();
 	    };
 	    
 	    
